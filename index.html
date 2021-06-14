@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>bootstrap_nownew</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<style>
+
+		.carousel-item{
+			height: 500px;
+			background-color: grey;
+		}
+		.carousel-item.item1{
+			background-image: url(https://i.postimg.cc/BZ8CmMY2/Kakao-Talk-Photo-2021-05-23-14-10-00.jpg);
+			background-size:cover;
+			background-position: center center; 
+		}
+		.carousel-item.item2{
+			background-image: url(https://i.postimg.cc/5y61CZb7/Kakao-Talk-Photo-2021-05-23-14-27-24.jpg);
+			background-size: cover;
+			background-position: center center; 
+		}
+		.carousel-item.item3{
+			background-image: url(https://i.postimg.cc/d0PM0hhx/Kakao-Talk-Photo-2021-05-23-14-13-28.jpg);
+			background-size: cover;
+			background-position: center top; 
+		}
+		.intro h1{
+			font-size: 48px;
+			color: white;
+
+		}
+		.intro h2{
+			font-size: 28px;
+			color: white;
+			margin-top: 18px;
+			margin-bottom: 48px;
+		}
+		.intro a{
+			text-decoration: none;
+			font-size: 18px;
+			color: white;
+			background-color: gray;
+			padding:10px 30px;}
+		.intro{
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto; 
+
+
+		}
+		.component{
+			display: block;
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+			margin-bottom: 20px;
+
+		}
+		.component-image{
+			display: block;
+
+		}
+		.info h4{
+			font-size: 18px;
+			color: #4A4A4A;
+			margin-bottom: 10px;
+		}
+		.info{
+			padding: 10px;
+		}
+		.component:hover{
+			text-decoration: none;
+		}
+		.container{
+			margin-bottom: 50px;
+			width: 100%
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">NOWNEW</a>
+
+	    <!--navber-->
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav me-auto">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="#">SALE</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="#">MADE NOWNEW</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">OUTER</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">TOP</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">BOTTOMS</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">DRESS</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">SHOES</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">ACC</a>
+	   
+	        </li>
+	      </ul>
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" aria-current="page" href="#">LOGIN</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">REGISTER</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">CART</a>
+	        </li>
+	      <ul>
+
+	    </div>
+	  </div>
+	</nav>
+	<!--carousel -->
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item item1 active">
+	    	<div class="intro">
+		     	<h1>PRE-ORDER ITEM OPEN</h1>
+		     	<h2>5.21~6.10</h2>
+		     	<a href="#"> more </a>
+	     	
+	     	</div>
+	    </div>
+	    <div class="carousel-item item2">
+	      	<div class="intro">
+		     	<h1>NEW 5%</h1>
+		     	<h2>5.21~5.23</h2>
+		     	<a href="#"> more </a>
+	     	
+	     	</div>
+	    </div>
+	    <div class="carousel-item item3">
+	  		<div class="intro">
+		     	<h1>RESTOCK ITEM</h1>
+		     	<h2>SS 5.21 open</h2>
+		     	<a href="#"> more </a>
+	     	
+	     	</div>
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/cJhN5sJk/Kakao-Talk-Photo-2021-05-23-14-27-30.jpg" width="100%">
+					<div class="info">
+						<h4>sleeveless</h4>
+					</div>
+				</a>
+			</div>
+		
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/NMHrJhfV/Kakao-Talk-Photo-2021-05-23-14-27-24.jpg" width="100%">
+					<div class="info">
+						<h4>half-jacket</h4>
+					</div>
+				</a>
+			</div>
+	
+	
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/FRNQq394/Kakao-Talk-Photo-2021-05-24-03-12-47.jpg" width="100%">
+					<div class="info">
+						<h4>vitage printing t</h4>
+					</div>
+				</a>
+
+
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/7bv9sMk1/Kakao-Talk-Photo-2021-05-24-03-16-35.jpg" width="100%">
+					<div class="info">
+						<h4>stand alone t</h4>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/KYgnV30J/Kakao-Talk-Photo-2021-05-24-03-17-57.jpg" width="100%">
+					<div class="info">
+						<h4>knit vest</h4>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/cHLdCwPc/Kakao-Talk-Photo-2021-05-24-03-21-42.jpg" width="100%">
+					<div class="info">
+						<h4>lovely mtm</h4>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/2jxnPDxR/Kakao-Talk-Photo-2021-05-24-03-18-02.jpg" width="100%">
+					<div class="info">
+						<h4>american pattern vest</h4>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="#" class="component">
+					<img class="component-image" src="https://i.postimg.cc/52XvYFWb/Kakao-Talk-Photo-2021-05-24-03-17-52.jpg" width="100%">
+					<div class="info">
+						<h4>printing dress</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+		
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
